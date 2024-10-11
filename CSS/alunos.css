@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.HeaderLogo {
+    margin-top: 5px;
+    width: 70px;
+}
+
+header {
+    background-color: #ffcb00;
+    display: flex;
+    margin-left: -10px;
+    margin-top: -10px;
+    width: 100.4%;
+    padding: 5px;
+}
+
+.HeaderTitle {
+    margin-left: 38%;
+}
+
+.YellowStrong {
+    color: #ffcb00;
+    text-decoration: underline;
+}

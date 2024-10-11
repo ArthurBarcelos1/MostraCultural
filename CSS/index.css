@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.HeaderLogo {
+    margin-top: 5px;
+    width: 70px;
+}
+
+header {
+    background-color: #ffcb00;
+    display: flex;
+    margin-left: -10px;
+    margin-top: -10px;
+    width: 100.4%;
+    padding: 5px;
+}
+
+.HeaderTitle {
+    margin-left: 38%;
+}
+
+.YellowStrong {
+    color: #ffcb00;
+    text-decoration: underline;
+}
+
+.TextP {
+    font-size: 20px;
+    max-width: 1000px;
+    text-align: left;
+    border-left: solid #ffcb00;
+    padding: 20px;
+    margin-left: 23%
+}
+
+.Article {
+    margin-top: 100px;
+}
+
+.StudantsButton {
+    background-color: #ffcb00;
+    padding: 20px;
+    border: 0px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.StudantsButton:hover {
+    background-color: #d8ad00;
+    cursor: pointer;
+}
+
+h3 {
+    margin-top: 50px;
+}
+
+@media (max-width: 1919px) {
+    .HeaderTitle {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .TextP {
+        margin-left: 20%;
+    }
+}
