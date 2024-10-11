@@ -21,7 +21,15 @@ header {
     margin-left: 38%;
 }
 
-.YellowStrong {
-    color: #ffcb00;
-    text-decoration: underline;
+@media (max-width: 1919px) {
+    .HeaderTitle {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .TextP {
+        margin-left: 16%;
+    }
 }
