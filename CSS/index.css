@@ -8,6 +8,10 @@ body {
     width: 70px;
 }
 
+.HeaderLogo:hover {
+    box-shadow: 1px 1px 2px 2px #d8ad00
+}
+
 header {
     background-color: #ffcb00;
     display: flex;
@@ -15,10 +19,18 @@ header {
     margin-top: -10px;
     width: 100.4%;
     padding: 5px;
+    padding-bottom: 15px;
+}
+
+h6 {
+    margin-top: -10px;
 }
 
 .HeaderTitle {
-    margin-left: 38%;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 
 .YellowStrong {
@@ -27,12 +39,33 @@ header {
 }
 
 .TextP {
-    font-size: 20px;
-    max-width: 1000px;
     text-align: left;
-    border-left: solid #ffcb00;
-    padding: 20px;
-    margin-left: 23%
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-left: solid #ffcb00; /* Borda à esquerda */
+    padding: 20px; /* Espaçamento interno */
+    animation: TextoSobe;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+.LogoInsta {
+    position: relative;
+    top: 5px;
+    width: 40px;
+    margin-left: 50px;
+}
+
+.BoldStrong {
+    font-size: 20px;
+}
+
+.fa-recycle {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .Article {
@@ -41,6 +74,7 @@ header {
 
 .StudantsButton {
     background-color: #ffcb00;
+    color: black;
     padding: 20px;
     border: 0px;
     border-radius: 20px;
@@ -61,6 +95,16 @@ h3 {
 .Abtm {
     color: black;
     text-decoration: none;
+}
+
+@keyframes TextoSobe {
+    0% {
+        margin-top: 1080px;
+    }
+
+    100% {
+        margin-top: 0px;
+    }
 }
 
 @media (max-width: 1919px) {

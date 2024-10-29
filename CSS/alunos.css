@@ -21,6 +21,14 @@ header {
     margin-left: 38%;
 }
 
+ul {
+    text-align: center;
+}
+
+.names {
+    margin-top: 50px;
+}
+
 @media (max-width: 1919px) {
     .HeaderTitle {
         text-align: center;
