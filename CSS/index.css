@@ -41,7 +41,7 @@ h6 {
 .TextP {
     text-align: left;
     width: 100%;
-    max-width: 1000px;
+    max-width: 420px;
     margin: 0 auto;
     margin-top: 20px;
     border-left: solid #ffcb00; /* Borda à esquerda */
