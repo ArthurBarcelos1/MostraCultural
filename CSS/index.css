@@ -17,7 +17,7 @@ header {
     display: flex;
     margin-left: -10px;
     margin-top: -10px;
-    width: 100.4%;
+    width: 110%;
     padding: 5px;
 }
 
@@ -39,9 +39,8 @@ h6 {
 
 .TextP {
     text-align: left;
-    max-width: 1000px;
     width: 100%;
-    margin-left: 10px;
+    max-width: 1000px;
     margin: 0 auto;
     margin-top: 20px;
     border-left: solid #ffcb00; /* Borda à esquerda */
