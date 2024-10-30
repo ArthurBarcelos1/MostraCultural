@@ -36,16 +36,15 @@ h6 {
 }
 
 video {
-    max-width: 100%;
+    max-width: 90%;
     margin: 10px;
 }
 
 .TextP {
     text-align: left;
-    width: 100%;
     margin: 0 auto;
     margin-top: 2000px;
-    min-width: 85%;
+    max-width: 70%;
     border-left: solid #ffcb00;
     padding: 20px;
     animation-name: TextoSobe;
@@ -62,14 +61,6 @@ video {
         margin-top: 20px;
     }
 }
-
-.LogoInsta {
-    position: relative;
-    top: 5px;
-    width: 40px;
-    margin-left: 50px;
-}
-
 .BoldStrong {
     font-size: 20px;
 }
@@ -79,9 +70,12 @@ video {
     margin-right: 20px;
 }
 
+p {
+    min-width: 90%;
+}
+
 .Article {
     margin-top: 100px;
-    width: 100%;
 }
 
 .StudantsButton {
@@ -109,16 +103,6 @@ h3 {
     text-decoration: none;
 }
 
-@keyframes TextoSobe {
-    0% {
-        margin-top: 1080px;
-    }
-
-    100% {
-        margin-top: 0px;
-    }
-}
-
 @media (max-width: 1919px) {
     .HeaderTitle {
         text-align: center;
@@ -139,5 +123,9 @@ h3 {
     .Abtm {
         color: black;
         text-decoration: none;
+    }
+
+    p {
+        width: 70%;
     }
 }
