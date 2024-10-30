@@ -46,7 +46,7 @@ h6 {
     border-left: solid #ffcb00; /* Borda à esquerda */
     padding: 20px; /* Espaçamento interno */
     animation: TextoSobe;
-    animation-duration: 1,5s;
+    animation-duration: 1,6s;
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
 }
