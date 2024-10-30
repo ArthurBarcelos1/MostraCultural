@@ -42,7 +42,7 @@ h6 {
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 2000px;
     border-left: solid #ffcb00; /* Borda à esquerda */
     padding: 20px; /* Espaçamento interno */
     animation: TextoSobe;
@@ -56,7 +56,7 @@ h6 {
         margin-top: 1080px;
     }
     100% {
-        margin-top: 0px;
+        margin-top: 20px;
     }
 }
 
