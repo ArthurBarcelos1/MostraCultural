@@ -17,12 +17,9 @@ header {
     padding: 5px;
 }
 
-.HeaderTitle {
-    margin-left: 38%;
-}
-
 ul {
     text-align: center;
+    margin-right: 40px;
 }
 
 .names {
