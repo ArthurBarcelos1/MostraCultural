@@ -19,15 +19,14 @@ header {
     margin-left: -10px;
     margin-top: -10px;
     min-width: 100%;
+    width: 102%;
     padding: 5px;
 }
 
 h6 {
     margin-top: -10px;
-}
-
-.HeaderTitle {
-    margin-right: 75%;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .YellowStrong {
@@ -38,6 +37,15 @@ h6 {
 video {
     max-width: 90%;
     margin: 10px;
+}
+
+.GroupIMG {
+    max-width: 50%;
+    border-radius: 5px;
+}
+
+.ArtistName {
+    margin-top: 10px;
 }
 
 .TextP {
