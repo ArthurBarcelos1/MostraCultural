@@ -42,6 +42,7 @@ video {
 .GroupIMG {
     max-width: 50%;
     border-radius: 5px;
+    box-shadow: 4px 4px 8px rgb(126, 126, 126);
 }
 
 .ArtistName {
