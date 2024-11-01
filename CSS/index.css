@@ -48,6 +48,10 @@ video {
     margin-top: 10px;
 }
 
+.GroupIMG1 {
+    max-width: 70%;
+}
+
 .TextP {
     text-align: center;
     margin: 0 auto;
