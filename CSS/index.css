@@ -26,6 +26,9 @@ header {
 
 .HeaderTitle {
     color: #000000;
+    font-size: 23px;
+    padding-top: 5px;
+    padding-right: 90px;
 }
 
 h6 {
@@ -71,7 +74,7 @@ video {
     padding: 20px;
 
     animation-name: TextoSobe;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
 }
@@ -110,6 +113,7 @@ p {
     font-size: 20px;
     font-weight: bold;
     transition: 0.3s;
+    margin-top: 30px;
 }
 
 .StudantsButton:hover {
