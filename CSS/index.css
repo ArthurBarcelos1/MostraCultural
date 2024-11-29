@@ -40,6 +40,16 @@ h6 {
     margin-right: 20px;
 }
 
+.h6class {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.h6class:hover {
+    cursor: default;
+}
+
 .GreenStrong {
     color: #19d416;
 }
